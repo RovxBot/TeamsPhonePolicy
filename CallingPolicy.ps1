@@ -1,11 +1,3 @@
-# Install modules
-Install-Module -Name PowerShellGet -Force -AllowClobber
-Install-Module -Name MicrosoftTeams -Force -AllowClobber
-
-# login to Microsoft
-$credential = Get-Credential
-Connect-MicrosoftTeams -Credential $credential
-
 #Create new Calling policy
 New-CsTeamsCallingPolicy -Identity "CALLPOLICYNAME" `
 -Description "CALLPOLICYDESCRIPTION" `
