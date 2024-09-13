@@ -1,5 +1,5 @@
 # create new Call Park policy
-New-CsTeamsCallParkPolicy -Identity "CALLPOLICYNAME" `
+New-CsTeamsCallParkPolicy -Identity "CALLPARKPOLICYNAME" `
 -Description "CALLPOLICYDESCRIPTION" `
 -AllowCallPark $true `
 #start and end range for park number
